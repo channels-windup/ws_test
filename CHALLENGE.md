@@ -32,7 +32,7 @@ A WebSocket server is provided that streams random markdown content:
 ### 1. Start the Backend Server
 ```bash
 # Clone this repository and navigate to the project
-cd ws_test_api
+cd ws_test
 
 # Install dependencies
 poetry install
