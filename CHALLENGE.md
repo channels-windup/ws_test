@@ -38,7 +38,7 @@ cd ws_test
 poetry install
 
 # Start the server
-poetry run fastapi dev conf_test_api/main.py
+poetry run fastapi dev ws_test_api/main.py
 ```
 
 The server will be available at `http://localhost:8000` with WebSocket endpoint at `ws://localhost:8000/stream`.
